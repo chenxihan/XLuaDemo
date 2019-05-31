@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        "**/*.lua.meta": true,
+        "**/*.meta": true
+    },
+    "Lua.diagnostics.globals": [
+        "xlua",
+        "perf",
+        "jit",
+        "tolua",
+        "searckKeys",
+        "luaIdePrintWarn",
+        "luaIdePrintErr",
+        "debugger_conditionStr"
+    ],
+    "Lua.diagnostics.disable": [
+        "redundant-parameter",
+        "empty-block",
+    ],
+}
